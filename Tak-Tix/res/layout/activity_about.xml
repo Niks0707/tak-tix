@@ -1,0 +1,41 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context="com.example.tak_tix.AboutActivity"
+    tools:ignore="MergeRootFrame" >
+
+    <TextView
+        android:id="@+id/text_move"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|center"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="15dp"
+        android:text="@string/app_name"
+        android:textSize="48sp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|center"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="100dp"
+        android:text="@string/about_text"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/Okbutton"
+        android:layout_width="256dp"
+        android:layout_height="64dp"
+        android:layout_gravity="bottom|center"
+        android:layout_marginBottom="35dp"
+        android:text="@android:string/ok" />
+
+</FrameLayout>

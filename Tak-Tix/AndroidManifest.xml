@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.tak_tix"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="19" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.tak_tix.MenuActivity"
+            android:label="@string/app_name"
+            android:configChanges="locale"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.tak_tix.AboutActivity"
+            android:label="@string/title_activity_about"
+            android:configChanges="locale"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.example.tak_tix.PlayActivity"
+            android:label="@string/title_activity_play"
+            android:configChanges="locale"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.example.tak_tix.SettingsActivity"
+            android:configChanges="locale"
+            android:label="@string/title_activity_settings"            
+            android:screenOrientation="portrait" >
+        </activity>
+    </application>
+
+</manifest>

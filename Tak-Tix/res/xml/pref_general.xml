@@ -1,0 +1,29 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <ListPreference
+        android:defaultValue="en"
+        android:dialogTitle="@string/language"
+        android:entries="@array/lng_list"
+        android:entryValues="@array/entryvalues_lng"
+        android:key="@string/lang"
+        android:title="@string/language" />
+    <ListPreference
+        android:defaultValue="4"
+        android:dialogTitle="@string/Boardsize"
+        android:disableDependentsState="true"
+        android:entries="@array/size_list"
+        android:entryValues="@array/entryvalues_size"
+        android:key="@string/size"
+        android:summaryOff="@string/Boardsize"
+        android:summaryOn="@string/Boardsize"
+        android:title="@string/Boardsize" />
+
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:disableDependentsState="false"
+        android:key="@string/victory"
+        android:summaryOff="@string/set_victory"
+        android:summaryOn="@string/set_victory"
+        android:title="@string/victory_cond" />
+
+</PreferenceScreen>
